@@ -15,6 +15,7 @@ public class GitJenkinsApplication {
 	@PostConstruct
 	public void init() {
 		logger.info("app started ........");
+		logger.debug("hello jenkins");
 	}
 	
 	
